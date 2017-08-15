@@ -1,5 +1,5 @@
 {
-  "name": "ts-semantic-tests-example",
+  "name": "tsst-example-project",
   "version": "0.0.1",
   "description": "Example project for ts-semantic-tests",
   "main": "dist/index.js",
