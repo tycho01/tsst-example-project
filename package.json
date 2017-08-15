@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/jest": "^20.0.5",
     "jest": "20.0.4",
-    "tsst": "./../typescript-diagnostic-tests",
+    "tsst": "^0.3.0",
     "typescript": "2.4.2"
   }
 }
