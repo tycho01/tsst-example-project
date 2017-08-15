@@ -9,6 +9,7 @@ $ npm run build
 ```
 
 ## Testing
+Tests will transform, build, and run in a single step.
 ```
 $ npm test
 ```
