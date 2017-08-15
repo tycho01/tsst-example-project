@@ -6,7 +6,7 @@
   "author": "Sam Pruden",
   "license": "ISC",
   "scripts": {
-    "pretest": "tsst -b **/*.test.ts -d ./js-tests",
+    "pretest": "tsst -b \"**/*.test.ts\" -d ./js-tests",
     "test": "jest",
     "build": "tsc"
   },
