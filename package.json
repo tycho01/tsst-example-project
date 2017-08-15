@@ -1,0 +1,19 @@
+{
+  "name": "ts-semantic-tests-example",
+  "version": "0.0.1",
+  "description": "Example project for ts-semantic-tests",
+  "main": "dist/index.js",
+  "author": "Sam Pruden",
+  "license": "ISC",
+  "scripts": {
+    "pretest": "tsst -b **/*.test.ts -d ./js-tests",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.5",
+    "jest": "20.0.4",
+    "tsst": "./../typescript-diagnostic-tests",
+    "typescript": "2.4.2"
+  }
+}
