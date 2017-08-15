@@ -1,5 +1,8 @@
 This is a (hopefully) working example of a project testable with ts-semantic-tests as it stands currently. I'll try to keep this updated as that project evolves.
 
+## Installation
+Grab this source, run `npm install` in it.
+
 ## Building
 ```
 $ npm run build
