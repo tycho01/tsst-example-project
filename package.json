@@ -6,14 +6,14 @@
   "author": "Sam Pruden",
   "license": "ISC",
   "scripts": {
-    "pretest": "tsst -b **/*.test.ts -d ./js-tests",
+    "pretest": "node_modules/.bin/tsst -b \"**/*.test.ts\" -d ./js-tests",
     "test": "jest",
     "build": "tsc"
   },
   "devDependencies": {
     "@types/jest": "^20.0.5",
     "jest": "20.0.4",
-    "tsst": "^0.3.0",
-    "typescript": "2.4.2"
+    "tsst": "^0.3.2",
+    "typescript": "github:microsoft/typescript"
   }
 }

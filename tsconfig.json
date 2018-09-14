@@ -3,6 +3,7 @@
         "strict": true,
         "rootDirs": ["src", "tests"],
         "outDir": "dist",
+        "noEmit": false,
         "noEmitOnError": false
     }
 }

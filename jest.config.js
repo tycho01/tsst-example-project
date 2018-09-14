@@ -1,6 +1,4 @@
 module.exports = {
-    testRegex: "js-tests\\(.+)\\.test\\.js$",
-    moduleFileExtensions: [
-      "js"
-    ]
+    testRegex: "js-tests\/(.+)\\.test\\.js$",
+    moduleFileExtensions: ["js"]
 };
